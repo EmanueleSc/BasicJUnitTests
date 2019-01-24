@@ -22,4 +22,8 @@ public class HelloWorld {
 		return System.getProperty("os.name");
 	}
 	
+	public static String sayBau() {
+		return "BAU";
+	}
+	
 }

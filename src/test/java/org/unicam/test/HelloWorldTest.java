@@ -59,6 +59,11 @@ public class HelloWorldTest {
 	void testHelloShouldReturnAString() {
 		assertNotNull(HelloWorld.hello());
 	}
+	
+	@Test
+	void testSayBauShouldReturnBau() {
+		assertEquals( HelloWorld.sayBau() , "BAU" );
+	}
 
 	@Test
 	@Tag("display")
