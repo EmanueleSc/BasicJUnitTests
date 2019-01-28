@@ -62,7 +62,7 @@ public class HelloWorldTest {
 	
 	@Test
 	void testSayBauShouldReturnBau() {
-		assertEquals( HelloWorld.sayBau() , "BAU" );
+		assertEquals( HelloWorld.sayBau() , "BUU" );
 	}
 
 	@Test
